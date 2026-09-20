@@ -61,7 +61,7 @@ export default function Hero() {
         className="relative mt-3 font-mono text-base sm:text-lg"
         style={{ color: 'var(--accent)' }}
       >
-        Building an open-source-AI alternative to Datadog, Dynatrace &amp; SigNoz
+        Building a SaaS alternative to Datadog, Dynatrace &amp; SigNoz — powered by open-source AI
       </motion.p>
 
       <motion.p

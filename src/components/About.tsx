@@ -16,8 +16,9 @@ export default function About() {
 
       <Reveal delay={0.1}>
         <p className="mt-6 max-w-2xl text-base leading-relaxed sm:text-lg" style={{ color: 'var(--text-dim)' }}>
-          Faultline is an open-source-AI alternative to Datadog, Dynatrace, and SigNoz —
-          observability and incident management as one system instead of two. It correlates
+          Faultline is a SaaS alternative to Datadog, Dynatrace, and SigNoz, powered by
+          open-source AI — observability and incident management as one system instead of
+          two. It correlates
           every fault to the deploy that caused it, explains root cause with open-source AI,
           and carries it all the way through to a closed incident — MTTR tracked
           automatically. No black-box vendor, no per-GB tax on your own data. It's the

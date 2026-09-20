@@ -47,15 +47,15 @@ export default function Projects() {
           </h3>
 
           <p className="relative mt-3 max-w-2xl text-base leading-relaxed sm:text-lg" style={{ color: 'var(--text-dim)' }}>
-            An open-source-AI alternative to Datadog, Dynatrace, and SigNoz — full
-            observability (traces, logs, metrics) plus incident management, end to end, in
-            one system. Correlates every fault to the deploy that caused it, explains root
-            cause with open-source AI, and tracks MTTR automatically all the way to a
-            closed incident — not a graph tool bolted onto a pager.
+            A SaaS alternative to Datadog, Dynatrace, and SigNoz, powered by open-source
+            AI — full observability (traces, logs, metrics) plus incident management, end
+            to end, in one system. Correlates every fault to the deploy that caused it,
+            explains root cause, and tracks MTTR automatically all the way to a closed
+            incident — not a graph tool bolted onto a pager.
           </p>
 
           <div className="relative mt-6 flex flex-wrap gap-2">
-            {['Observability', 'Incident management', 'Deploy correlation', 'AI root cause', 'Open source AI'].map((tag) => (
+            {['Observability', 'Incident management', 'Deploy correlation', 'AI root cause', 'Open-source AI models'].map((tag) => (
               <span
                 key={tag}
                 className="rounded-full border px-3 py-1 text-xs"
