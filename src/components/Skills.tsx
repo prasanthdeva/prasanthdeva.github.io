@@ -1,10 +1,10 @@
 import Reveal from './Reveal'
 
 const GROUPS = [
-  { label: 'Languages', items: ['Go', 'Java', 'Python', 'TypeScript'] },
+  { label: 'Languages', items: ['Go', 'Java', 'Python', 'TypeScript', 'JavaScript'] },
   { label: 'AI / GenAI', items: ['LangGraph', 'MCP', 'RAG pipelines', 'Prompt engineering'] },
-  { label: 'Systems', items: ['Kafka', 'ClickHouse', 'Distributed tracing', 'OpenTelemetry'] },
-  { label: 'Platform', items: ['Spring Boot', 'Kubernetes', 'Docker', 'GCP'] },
+  { label: 'Data & Messaging', items: ['Kafka', 'ClickHouse', 'PostgreSQL', 'MongoDB'] },
+  { label: 'Cloud & DevOps', items: ['GCP', 'AWS', 'Azure', 'Kubernetes', 'Docker', 'Jenkins / CI-CD'] },
 ]
 
 export default function Skills() {

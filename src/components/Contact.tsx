@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { QRCodeSVG } from 'qrcode.react'
-import { FiCopy, FiCheck, FiMail, FiPhone, FiGithub, FiLinkedin } from 'react-icons/fi'
+import { FiCopy, FiCheck, FiMail, FiPhone, FiGithub, FiLinkedin, FiTwitter } from 'react-icons/fi'
 import Reveal from './Reveal'
 
 // vCard 3.0 -- scanning this with any phone camera offers "add contact"
@@ -15,6 +15,7 @@ const VCARD = [
   'EMAIL:prasanthwit@gmail.com',
   'TEL;TYPE=CELL:+91 8667848270',
   'URL:https://faultline.co.in',
+  'X-SOCIALPROFILE;TYPE=linkedin:https://www.linkedin.com/in/manirathnam-m-33531914b/',
   'END:VCARD',
 ].join('\n')
 
@@ -88,7 +89,7 @@ export default function Contact() {
                 <FiGithub size={16} />
               </a>
               <a
-                href="https://www.linkedin.com/"
+                href="https://www.linkedin.com/in/manirathnam-m-33531914b/"
                 target="_blank"
                 rel="noreferrer"
                 aria-label="LinkedIn"
@@ -96,6 +97,16 @@ export default function Contact() {
                 style={{ borderColor: 'var(--border-c)', color: 'var(--text)' }}
               >
                 <FiLinkedin size={16} />
+              </a>
+              <a
+                href="https://x.com/Prasanth0o7"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="X (Twitter)"
+                className="grid h-10 w-10 place-items-center rounded-full border transition-transform hover:scale-105"
+                style={{ borderColor: 'var(--border-c)', color: 'var(--text)' }}
+              >
+                <FiTwitter size={16} />
               </a>
             </div>
           </div>

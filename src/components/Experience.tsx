@@ -34,6 +34,7 @@ const ROLES: Role[] = [
     location: 'Remote, India',
     points: [
       'Work in Go on Enterprise Jenkins — tuning APIs and refactoring core service code for CI/CD and release orchestration across the required cloud vendors.',
+      'Found and fixed a remote code execution vulnerability in a production code path — the kind of security work that has to be right the first time, not iterated on.',
       'Owns work end-to-end: code, build, test, deploy, and release — not handed off between stages or teams.',
     ],
   },
