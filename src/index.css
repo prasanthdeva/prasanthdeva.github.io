@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+}
+
+:root {
+  --bg: #080a0e;
+  --bg-elevated: #0e1117;
+  --border-c: rgba(255, 255, 255, 0.08);
+  --text: #e9edf2;
+  --text-dim: #8b93a5;
+  --accent: #fdb750;
+  --accent-2: #6fe3c4;
+  color-scheme: dark;
+}
+
+:root[data-theme="light"] {
+  --bg: #f7f7f5;
+  --bg-elevated: #ffffff;
+  --border-c: rgba(10, 12, 16, 0.1);
+  --text: #14161b;
+  --text-dim: #5b6270;
+  --accent: #c8760a;
+  --accent-2: #0f9b78;
+  color-scheme: light;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-sans);
+  transition: background-color 200ms ease, color 200ms ease;
+}
+
+::selection {
+  background: var(--accent);
+  color: #080a0e;
+}
