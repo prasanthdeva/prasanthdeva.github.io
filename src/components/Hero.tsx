@@ -61,7 +61,7 @@ export default function Hero() {
         className="relative mt-3 font-mono text-base sm:text-lg"
         style={{ color: 'var(--accent)' }}
       >
-        GenAI Lead Engineer — building the AI reasoning layer for incident response
+        Building an open-source-AI alternative to Datadog, Dynatrace &amp; SigNoz
       </motion.p>
 
       <motion.p
@@ -72,9 +72,9 @@ export default function Hero() {
         className="relative mt-6 max-w-xl text-base leading-relaxed sm:text-lg"
         style={{ color: 'var(--text-dim)' }}
       >
-        Lead Software Engineer turned AI-native builder. 5+ years across Java/Spring Boot
-        backend engineering and distributed systems, now shipping GenAI-accelerated
-        products at founder speed.
+        Lead Software Engineer turned founder. 5+ years across Java/Spring Boot backend
+        engineering and distributed systems, now building Faultline — full observability
+        (traces, logs, metrics) plus incident management, end to end, in one system.
       </motion.p>
 
       <motion.div
