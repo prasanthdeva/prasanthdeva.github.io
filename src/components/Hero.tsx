@@ -72,9 +72,10 @@ export default function Hero() {
         className="relative mt-6 max-w-xl text-base leading-relaxed sm:text-lg"
         style={{ color: 'var(--text-dim)' }}
       >
-        Lead Software Engineer turned founder. 5+ years across Java/Spring Boot backend
-        engineering and distributed systems, now building Faultline — full observability
-        (traces, logs, metrics) plus incident management, end to end, in one system.
+        AI-native full-stack engineer — Java, Spring Boot, Node.js, Go, and Python across
+        5+ years of backend engineering and distributed systems. Now building Faultline —
+        full observability (traces, logs, metrics) plus incident management, end to end,
+        in one system.
       </motion.p>
 
       <motion.div
