@@ -7,7 +7,7 @@ export default function Projects() {
     <section id="work" className="mx-auto max-w-5xl px-5 py-20">
       <Reveal>
         <span className="font-mono text-xs uppercase tracking-widest" style={{ color: 'var(--text-dim)' }}>
-          03 — Work
+          04 — Work
         </span>
         <h2 className="mt-3 text-2xl font-semibold tracking-tight sm:text-3xl" style={{ color: 'var(--text)' }}>
           Currently building
