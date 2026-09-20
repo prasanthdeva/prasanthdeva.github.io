@@ -1,7 +1,8 @@
 import Reveal from './Reveal'
 
 const GROUPS = [
-  { label: 'Languages', items: ['Go', 'Java', 'Python', 'TypeScript', 'JavaScript'] },
+  { label: 'Frontend', items: ['React', 'Angular', 'TypeScript', 'JavaScript'] },
+  { label: 'Backend', items: ['Java', 'Spring Boot', 'Go', 'Python', 'Node.js'] },
   { label: 'AI / GenAI', items: ['LangGraph', 'MCP', 'RAG pipelines', 'Prompt engineering'] },
   { label: 'Data & Messaging', items: ['Kafka', 'ClickHouse', 'PostgreSQL', 'MongoDB'] },
   { label: 'Cloud & DevOps', items: ['GCP', 'AWS', 'Azure', 'Kubernetes', 'Docker', 'Jenkins / CI-CD'] },

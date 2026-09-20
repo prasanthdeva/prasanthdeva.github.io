@@ -72,9 +72,9 @@ export default function Hero() {
         className="relative mt-6 max-w-xl text-base leading-relaxed sm:text-lg"
         style={{ color: 'var(--text-dim)' }}
       >
-        AI-native full-stack engineer — Java, Spring Boot, Node.js, Go, and Python across
-        5+ years of backend engineering and distributed systems. Now building Faultline —
-        full observability (traces, logs, metrics) plus incident management, end to end,
+        AI-native full-stack engineer — React, Angular, Java/Spring Boot, Go, and Python
+        across 5+ years of frontend, backend, and distributed systems work. Now building
+        Faultline — full observability (traces, logs, metrics) plus incident management, end to end,
         in one system.
       </motion.p>
 
